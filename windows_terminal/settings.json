@@ -48,7 +48,7 @@
                 "face": "UbuntuMono Nerd Font Mono",
                 "size": 11
             },
-            "opacity": 85,
+            "opacity": 90,
             "useAcrylic": true
         },
         "list": 
@@ -61,8 +61,8 @@
                 "source": "Windows.Terminal.PowershellCore"
             },
             {
-                "backgroundImage": "C:\\Users\\ArsenLupen\\Pictures\\wallpapers\\ubuntu_lenovo.jpg",
-                "backgroundImageOpacity": 0.10000000000000001,
+                "backgroundImage": null,
+                "backgroundImageOpacity": 0.070000000000000007,
                 "commandline": "%SystemRoot%\\system32\\wsl.exe -d Ubuntu-20.04 sh -c \"clear; cd ~; exec bash\"",
                 "cursorShape": "filledBox",
                 "font": 
@@ -73,12 +73,12 @@
                 "hidden": false,
                 "icon": "C:\\Users\\ArsenLupen\\Pictures\\icons\\ubuntu.png",
                 "name": "Ubuntu 20.04.4 LTS",
-                "opacity": 85,
+                "opacity": 90,
                 "source": "CanonicalGroupLimited.Ubuntu20.04LTS_79rhkp1fndgsc",
                 "startingDirectory": null
             },
             {
-                "backgroundImage": "C:\\Users\\ArsenLupen\\Pictures\\wallpapers\\ubuntu_lenovo.jpg",
+                "backgroundImage": null,
                 "backgroundImageOpacity": 0.10000000000000001,
                 "commandline": "%SystemRoot%\\system32\\wsl.exe -d Ubuntu-22.04 sh -c \"clear; exec bash\"",
                 "cursorShape": "filledBox",
@@ -413,7 +413,7 @@
         },
         {
             "background": "#1A1A1A",
-            "black": "#121212",
+            "black": "#0D0D0D",
             "blue": "#2B4FFF",
             "brightBlack": "#947F65",
             "brightBlue": "#5C78FF",
