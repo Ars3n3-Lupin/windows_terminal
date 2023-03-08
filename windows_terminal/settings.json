@@ -23,6 +23,16 @@
             "command": 
             {
                 "action": "splitPane",
+                "profile": "{60c3e313-8e1a-58f6-8175-3650c2bd2b26}",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+a"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
             },
@@ -37,6 +47,12 @@
     "disableAnimations": false,
     "focusFollowMouse": true,
     "launchMode": "maximized",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
         "defaults": 
@@ -46,7 +62,7 @@
             "font": 
             {
                 "face": "UbuntuMono Nerd Font Mono",
-                "size": 11
+                "size": 10.0
             },
             "opacity": 90,
             "useAcrylic": true
@@ -54,39 +70,27 @@
         "list": 
         [
             {
-                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe /nologo",
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "commandline": "ubuntu2204.exe",
+                "guid": "{59c98ec6-64c3-4d0a-8a27-f1bf7be67312}",
                 "hidden": false,
-                "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore"
+                "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
+                "name": "Ubuntu 22.04.2 LTS",
+                "tabTitle": "Ubuntu 22.04.2 LTS"
             },
             {
-                "backgroundImage": null,
-                "backgroundImageOpacity": 0.070000000000000007,
-                "commandline": "%SystemRoot%\\system32\\wsl.exe -d Ubuntu-20.04 sh -c \"clear; cd ~; exec bash\"",
-                "cursorShape": "filledBox",
-                "font": 
-                {
-                    "face": "UbuntuMono Nerd Font Mono"
-                },
-                "guid": "{5a069d55-87bd-57cf-8a07-2726b203d3e5}",
+                "commandline": "ubuntu2004.exe",
+                "guid": "{fa8e7d87-3118-46db-aed9-26ddd7baea88}",
                 "hidden": false,
-                "icon": "C:\\Users\\ArsenLupen\\Pictures\\icons\\ubuntu.png",
-                "name": "Ubuntu 20.04.4 LTS",
-                "opacity": 90,
-                "source": "CanonicalGroupLimited.Ubuntu20.04LTS_79rhkp1fndgsc",
-                "startingDirectory": null
+                "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
+                "name": "Ubuntu 20.04.5 LTS",
+                "tabTitle": "Ubuntu 20.04.5 LTS"
             },
             {
-                "backgroundImage": null,
-                "backgroundImageOpacity": 0.10000000000000001,
-                "commandline": "%SystemRoot%\\system32\\wsl.exe -d Ubuntu-22.04 sh -c \"clear; exec bash\"",
-                "cursorShape": "filledBox",
-                "guid": "{60c3e313-8e1a-58f6-8175-3650c2bd2b26}",
+                "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d openSUSE-Leap-15.4",
+                "guid": "{5d5c9951-053a-4743-a9a6-ca590bc1b607}",
                 "hidden": false,
-                "name": "Ubuntu 22.04 LTS",
-                "opacity": 85,
-                "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
+                "icon": "C:\\Users\\ArsenLupen\\Pictures\\icons\\SuseLinuxIcon.png",
+                "name": "openSUSE-Leap-15.4",
                 "startingDirectory": "~"
             },
             {
@@ -97,10 +101,11 @@
                 "source": "Windows.Terminal.Wsl"
             },
             {
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe /nologo",
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe /nologo",
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
-                "name": "Windows PowerShell"
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
@@ -423,14 +428,14 @@
             "brightRed": "#BA5AFF",
             "brightWhite": "#FFFFFF",
             "brightYellow": "#685AFF",
-            "cursorColor": "#A52AFF",
+            "cursorColor": "#FF6522",
             "cyan": "#28B9FF",
             "foreground": "#D6D6D6",
             "green": "#7129FF",
             "name": "xcad_tdl",
             "purple": "#2883FF",
             "red": "#A52AFF",
-            "selectionBackground": "#CE85FF",
+            "selectionBackground": "#FF9626",
             "white": "#F1F1F1",
             "yellow": "#3D2AFF"
         },
@@ -504,5 +509,6 @@
             "yellow": "#E5E510"
         }
     ],
-    "startupActions": "split-pane -V; move-focus left"
+    "startupActions": "split-pane -V; move-focus left",
+    "themes": []
 }
