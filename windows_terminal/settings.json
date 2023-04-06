@@ -43,7 +43,7 @@
     "alwaysShowNotificationIcon": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "defaultProfile": "{fa8e7d87-3118-46db-aed9-26ddd7baea88}",
     "disableAnimations": false,
     "focusFollowMouse": true,
     "launchMode": "maximized",
@@ -112,6 +112,12 @@
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
+            },
+            {
+                "guid": "{2051e21a-b554-5f77-8686-00d5edcf8345}",
+                "hidden": false,
+                "name": "SUSE-Linux-Enterprise-Server-15-SP4",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
@@ -419,7 +425,7 @@
         {
             "background": "#1A1A1A",
             "black": "#0D0D0D",
-            "blue": "#2B4FFF",
+            "blue": "#9692FF",
             "brightBlack": "#947F65",
             "brightBlue": "#5C78FF",
             "brightCyan": "#5AC8FF",
@@ -431,7 +437,7 @@
             "cursorColor": "#FF6522",
             "cyan": "#28B9FF",
             "foreground": "#D6D6D6",
-            "green": "#7129FF",
+            "green": "#6937B8",
             "name": "xcad_tdl",
             "purple": "#2883FF",
             "red": "#A52AFF",
@@ -509,6 +515,6 @@
             "yellow": "#E5E510"
         }
     ],
-    "startupActions": "split-pane -V; move-focus left",
+    "startupActions": "split-pane -V; move-focus left; split-pane -H; move-focus right; split-pane -H",
     "themes": []
 }
