@@ -16,10 +16,6 @@
             "keys": "ctrl+c"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "command": 
             {
                 "action": "splitPane",
@@ -28,6 +24,10 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+a"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -118,6 +118,12 @@
                 "hidden": false,
                 "name": "SUSE-Linux-Enterprise-Server-15-SP4",
                 "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
             }
         ]
     },
